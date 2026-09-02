@@ -1,0 +1,214 @@
+{
+  "audit_id": "ZOOWIDE-001",
+  "classification": {
+    "AMBER": "core passes; one or more optional reproducibility surfaces absent",
+    "BLACK": "repository unavailable or evidence uninterpretable",
+    "GREEN": "all frozen checks present and tests pass",
+    "RED": "one or more frozen core checks absent or tests do not pass"
+  },
+  "designation": "HUMMINGBIRD-ZOO-FLIGHT",
+  "first_flight_boundary": "This run initializes exact commit baselines. It cannot establish whether historical states predating the run were unchanged.",
+  "optional_reproducibility_evidence": [
+    "LIMITATIONS_OR_FALSIFICATION",
+    "BENCHMARK",
+    "ABLATION",
+    "FREEZE_OR_MANIFEST",
+    "CI"
+  ],
+  "owner": "enuminous",
+  "required_evidence": [
+    "README",
+    "LICENSE",
+    "CITATION",
+    "IMPLEMENTATION",
+    "TEST",
+    "TESTS_PASS"
+  ],
+  "roster": [
+    {
+      "number": 1,
+      "repository": "Tortoise"
+    },
+    {
+      "number": 2,
+      "repository": "Owl"
+    },
+    {
+      "number": 3,
+      "repository": "Octopus"
+    },
+    {
+      "number": 4,
+      "repository": "Gecko"
+    },
+    {
+      "number": 5,
+      "repository": "Hive"
+    },
+    {
+      "number": 6,
+      "repository": "Eagle"
+    },
+    {
+      "number": 7,
+      "repository": "Crab"
+    },
+    {
+      "number": 8,
+      "repository": "Shepherd"
+    },
+    {
+      "number": 9,
+      "repository": "Pulse"
+    },
+    {
+      "number": 10,
+      "repository": "Cat"
+    },
+    {
+      "number": 11,
+      "repository": "Fox"
+    },
+    {
+      "number": 12,
+      "repository": "Spider"
+    },
+    {
+      "number": 13,
+      "repository": "Raven"
+    },
+    {
+      "number": 14,
+      "repository": "Dolphin"
+    },
+    {
+      "number": 15,
+      "repository": "Ant"
+    },
+    {
+      "number": 16,
+      "repository": "Moth"
+    },
+    {
+      "number": 17,
+      "repository": "Shark"
+    },
+    {
+      "number": 18,
+      "repository": "Penguin"
+    },
+    {
+      "number": 19,
+      "repository": "Bat"
+    },
+    {
+      "number": 20,
+      "repository": "Hedgehog"
+    },
+    {
+      "number": 21,
+      "repository": "Crocodile"
+    },
+    {
+      "number": 22,
+      "repository": "Dragon"
+    },
+    {
+      "number": 23,
+      "repository": "Turtle"
+    },
+    {
+      "number": 24,
+      "repository": "Magpie"
+    },
+    {
+      "number": 25,
+      "repository": "Wolf"
+    },
+    {
+      "number": 26,
+      "repository": "Elephant"
+    },
+    {
+      "number": 27,
+      "repository": "Chameleon"
+    },
+    {
+      "number": 28,
+      "repository": "Jellyfish"
+    },
+    {
+      "number": 29,
+      "repository": "Beaver"
+    },
+    {
+      "number": 30,
+      "repository": "Mantis"
+    },
+    {
+      "number": 31,
+      "repository": "Bison"
+    },
+    {
+      "number": 32,
+      "repository": "Weasel"
+    },
+    {
+      "number": 33,
+      "repository": "Salmon"
+    },
+    {
+      "number": 34,
+      "repository": "Orca"
+    },
+    {
+      "number": 35,
+      "repository": "Mole"
+    },
+    {
+      "number": 36,
+      "repository": "Lynx"
+    },
+    {
+      "number": 37,
+      "repository": "Horse"
+    },
+    {
+      "number": 38,
+      "repository": "Termite"
+    },
+    {
+      "number": 39,
+      "repository": "Phoenix"
+    },
+    {
+      "number": 40,
+      "repository": "Cobra"
+    },
+    {
+      "number": 41,
+      "repository": "Whale"
+    },
+    {
+      "number": 42,
+      "repository": "Falcon"
+    },
+    {
+      "number": 43,
+      "repository": "Rhino"
+    },
+    {
+      "number": 44,
+      "repository": "Bonobo"
+    },
+    {
+      "number": 45,
+      "repository": "Axolotl"
+    },
+    {
+      "number": 46,
+      "repository": "Butterfly"
+    }
+  ],
+  "zoo_boundary": "Core Zoo v1.0: Animals #1-46; #47+ prospective"
+}
