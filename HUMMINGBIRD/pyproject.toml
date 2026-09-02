@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "efmw-hummingbird"
+version = "0.1.0"
+description = "A prospective, read-only pilot-integrity monitor for the EFMW Zoo."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Matthew Chenoweth Wright"}]
+keywords = ["experiment-integrity", "monitoring", "audit", "provenance", "EFMW"]
+
+[tool.setuptools.packages.find]
+include = ["hummingbird*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
