@@ -1,0 +1,30 @@
+{
+  "run_id": "HB-DEMO-001",
+  "candidate_version": "candidate@abc123",
+  "baseline_versions": {
+    "baseline_a": "baseline_a@def456",
+    "baseline_b": "baseline_b@ghi789"
+  },
+  "dataset_version": "dataset@2026-09-02",
+  "information_features": ["sensor_a", "sensor_b", "sensor_c"],
+  "compute_ratio_bounds": [0.8, 1.2],
+  "drift_amber_threshold": 0.1,
+  "drift_red_threshold": 0.3,
+  "max_missingness": 0.05,
+  "black_missingness": 0.5,
+  "red_on_distribution_shift": false,
+  "allowed_interventions": ["scheduled_pause"],
+  "stop_reason_codes": [
+    "STOP_PROTOCOL_MUTATION",
+    "STOP_INFORMATION_LEAKAGE",
+    "STOP_BASELINE_ASYMMETRY",
+    "STOP_DATA_CORRUPTION",
+    "STOP_INSTRUMENT_FAILURE",
+    "STOP_UNRECORDED_INTERVENTION",
+    "STOP_VERSION_DRIFT"
+  ],
+  "registered_question": "Does the candidate outperform both baselines at matched information and compute budgets?",
+  "metrics": ["detection_rate", "false_alarm_rate", "detection_latency", "monitoring_overhead"],
+  "exclusions": [],
+  "stopping_rule": "Stop on a registered RED or BLACK reason code."
+}

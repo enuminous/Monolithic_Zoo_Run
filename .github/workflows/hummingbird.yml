@@ -1,0 +1,29 @@
+name: HUMMINGBIRD
+
+on:
+  push:
+    branches:
+      - "codex/hummingbird-47"
+    paths:
+      - "HUMMINGBIRD/**"
+      - ".github/workflows/hummingbird.yml"
+  pull_request:
+    paths:
+      - "HUMMINGBIRD/**"
+      - ".github/workflows/hummingbird.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: HUMMINGBIRD
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Fault-injection benchmark
+        run: python benchmark/fault_injection.py
