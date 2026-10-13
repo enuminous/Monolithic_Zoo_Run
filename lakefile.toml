@@ -4,4 +4,4 @@ defaultTargets = ["Monolithic102"]
 
 [[lean_lib]]
 name = "Monolithic102"
-roots = ["Monolithic102"]
+roots = ["CollapseOmega", "Contraction", "Evaluation", "Exponent", "Monolithic102", "Potential", "Robustness", "SurvivorTypes", "TurtleIndex"]
