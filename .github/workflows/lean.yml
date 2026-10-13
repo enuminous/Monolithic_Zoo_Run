@@ -20,7 +20,7 @@ jobs:
           build: true
           test: false
           lint: false
-          use-mathlib-cache: false
+          use-mathlib-cache: true
           use-github-cache: true
       - name: Audit project axioms
         run: lake env lean -DwarningAsError=true Audit.lean

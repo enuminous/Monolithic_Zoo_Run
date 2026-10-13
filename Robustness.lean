@@ -1,3 +1,5 @@
+import Mathlib
+
 namespace Monolithic102
 
 def alarm (value threshold : Int) : Prop := threshold ≤ value

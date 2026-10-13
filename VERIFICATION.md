@@ -18,3 +18,5 @@ Native proof evaluation is also rejected.
 The successful job summary records the exact commit and workflow run. Source
 declarations and hypotheses determine the mathematical scope; a successful
 build does not validate a broader empirical or scientific interpretation.
+
+The complete build exposed missing imports for `ring` and algebra lemmas. Mathlib 4.19.0 is now an explicit, cached, locked dependency; theorem statements are unchanged.

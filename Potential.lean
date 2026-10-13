@@ -1,3 +1,5 @@
+import Mathlib
+
 namespace Monolithic102
 
 def potentialDerivative (phi mu nu : Int) : Int := -mu * phi + nu * phi^3
