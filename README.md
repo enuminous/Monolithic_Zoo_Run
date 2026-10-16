@@ -1,5 +1,13 @@
 # Monolithic 102 — TURTLE Survivor Lean Tranche
 
+<!-- ENUMINOUS-LIFECYCLE:START -->
+**Lifecycle review — 2026-10-16: legacy standalone survivor tranche; preserved parallel source.**
+
+Seven theorem-source files have the same bodies as the copies in [the integrated package’s legacy-mathlib/TURTLE-survivors directory](https://github.com/enuminous/Monolithic-102-Zoo-Lean4/blob/f2872a96290f8e66d340a12996f3edaded10ce6d/legacy-mathlib/TURTLE-survivors/Contraction.lean), after removing the standalone files’ leading `import Mathlib`. The standalone build and the archival copies have different import contexts; the integrated package’s legacy directory is excluded from its active build. Retain this repository for the standalone tranche and use [integrated coverage](https://github.com/enuminous/Monolithic-102-Zoo-Lean4/blob/f2872a96290f8e66d340a12996f3edaded10ce6d/FORMALIZATION_STATUS.md) for later work. These copies do not constitute separate confirmations or a claim that all 102 equations are proved.
+
+[Portfolio review and evidence](https://github.com/enuminous/EFMW_Post156_Zoo_Audit/blob/main/portfolio/REPOSITORY_LIFECYCLE_2026-10-16.md).
+<!-- ENUMINOUS-LIFECYCLE:END -->
+
 <!-- ENUMINOUS-NETWORK:START -->
 **eNuminous network:** [All repositories](https://enuminous.github.io/EFMW/repositories.html) · [EFMW](https://enuminous.github.io/EFMW/) · [102 equations](https://github.com/enuminous/Monolithic_102_EFMW) · [165 triplets](https://enuminous.github.io/FieldSpace/) · [Zoo](https://enuminous.github.io/Tortoise/) · [Lean](https://enuminous.github.io/Aristotle-102-Monolithic-Lean/) · [Engine](https://enuminous.github.io/Archimedes-Engine/) · [Papers](https://enuminous.github.io/medium/papers-essays-index.html) · [Audit](https://github.com/enuminous/EFMW_Post156_Zoo_Audit/blob/main/portfolio/INTERLOCK_AUDIT.md)
 
